@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>
+
+        </title>
+    </head>
+    <body>
+        <div id="main">
+            <center>
+            <p id="heading">Details form</p>
+            <br>
+            <form>
+                <table>
+                    <tr>
+                        <td>
+                            <label for ="n">Name: </label>
+                        </td>
+                        <td>
+                            <input type="text" id="n">
+                            <br>
+                            <span id="sname"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for ="num">Mob. No.: </label>
+                            
+                        </td>
+                        <td>
+                            <input type="number" id="num">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for ="mail">Email ID: </label>
+                        </td>
+                        <td>
+                            <input type="text" id="mail">
+                        </td>
+                    </tr>
+                </table>
+                <button type="button" id="btn" onclick="func(n,num,mail)"><b>SUBMIT</b></button>    
+            </form>
+            </center>
+            <div>
+            <input type="text" id="search" placeholder="Enter the name here" style="width:70%; border:3px solid black; " >
+            <button type="button" id="search_btn" onclick="myfunction()" style="background-color: burlywood; padding:6px;">Search</button>
+            </div>
+            <p id="cut">
+                <table id="table">
+
+                </table>
+            </p>
+        </div>
+      
+        <script src="jstyle.js"></script>
+    </body>
+</html>
